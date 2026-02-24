@@ -1,9 +1,9 @@
 module github.com/JorgeGCoelho/gospal/v2
 
-go 1.19
+go 1.18
 
 require (
-	github.com/JorgeGCoelho/migo/v3 v3.0.6
+	github.com/JorgeGCoelho/migo/v3 v3.0.7-0.20221215181350-acab751b6878
 	github.com/fatih/color v1.13.0
 	github.com/pkg/errors v0.9.1
 	go.uber.org/zap v1.24.0

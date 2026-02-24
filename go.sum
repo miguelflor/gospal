@@ -1,5 +1,5 @@
-github.com/JorgeGCoelho/migo/v3 v3.0.6 h1:47xGWBblBi0nzBn8ZOiQk1pHMtnHeD575lrXNa3XBLk=
-github.com/JorgeGCoelho/migo/v3 v3.0.6/go.mod h1:zyLAnwsVAWezkM00nBXmVPFkfO4p/Erq7QhzpxXEL1g=
+github.com/JorgeGCoelho/migo/v3 v3.0.7-0.20221215181350-acab751b6878 h1:ypjgNysYrq29d+25Qv1XqNZ5sndLiWcTW98nBYe/+eY=
+github.com/JorgeGCoelho/migo/v3 v3.0.7-0.20221215181350-acab751b6878/go.mod h1:zyLAnwsVAWezkM00nBXmVPFkfO4p/Erq7QhzpxXEL1g=
 github.com/benbjohnson/clock v1.1.0 h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLju8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
