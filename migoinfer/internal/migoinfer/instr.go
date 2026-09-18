@@ -335,6 +335,8 @@ func (v *Instruction) VisitMakeChan(instr *ssa.MakeChan) {
 			s.Fields[field] = instr
 		}
 	}
+	
+	v.Export(instr)
 	if isReturnValue || isParameter {
 		v.Debugf("%s %s = MakeChan skipped\n\treturn value? %t\n\tparameter? %t",
 			v.Module(),
@@ -343,7 +345,6 @@ func (v *Instruction) VisitMakeChan(instr *ssa.MakeChan) {
 		return
 	}
 	v.Put(instr, newch)
-	v.Export(instr)
 	v.MiGo.AddStmts(migoNewChan(v.Logger, instr, newch))
 }
 
